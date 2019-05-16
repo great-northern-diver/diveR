@@ -1,0 +1,35 @@
+Package: diveR
+Type: Package
+Title: Direct interactive visual exploration in R
+Version: 0.1.0
+Authors@R: c(person(given = "R. Wayne", family = "Oldford",
+                    email = "rwoldford@uwaterloo.ca", 
+                    role = c("aut", "cre")),
+             person(given = "Adrian", family = "Waddell", 
+                    email = "adrian@waddell.ch", 
+                    role = c("aut"))
+                    )
+Description: 'diveR' is a set of `loon` related packages (`diver` is another name for `loon`)
+    The packages work together to provide a more complete Direct manipulation Interactive Visualization Environment
+    in `R`.  It is designed for exploratory data analysis, particularly for data having many
+    dimensions but also provides the tools for the user to develop experimental interactive
+    displays of their own.
+    The package exists primarily to gather the related packages together and
+    to make it easy to install and load these multiple 'diveR' packages in a single step. 
+License: GPL-2 
+URL: https://github.com/great-northern-diver
+BugReports: https://github.com/great-northern-diver/loon/issues
+Depends: 
+    R (>= 3.4)
+Imports: 
+    loon (>= 1.2.2),
+    zenplots
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
