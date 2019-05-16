@@ -1,10 +1,10 @@
 ## Copied from file of the same name in tidyverse and modified for diveR
 
-core <- c("loon", "zenplots")
+diveRcore <- c("loon", "zenplots")
 
 core_unloaded <- function() {
-  search <- paste0("package:", core)
-  core[!search %in% search()]
+  search <- paste0("package:", diveRcore)
+  diveRcore[!search %in% search()]
 }
 
 # Attach the package from the same package library it was
