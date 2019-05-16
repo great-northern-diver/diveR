@@ -4,6 +4,12 @@ home:
 navbar:
   type: default
 
+  left:
+    - text: Videos
+      menu:
+      - text: Interactive 3D plots
+        href: https://youtu.be/mMJllGOuDLY
+
   right:
   - icon: fa-github fa-lg
     href: https://github.com/great-northern-diver/diveR
@@ -11,5 +17,11 @@ navbar:
 development:
   mode: release
 
-destination: ../docs/
+destination: docs/
 
+
+reference:
+  - title: Packages
+    desc: Information about packages defining diveR
+    contents:
+    - diveR_packages

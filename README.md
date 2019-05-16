@@ -11,7 +11,8 @@ The packages work together to provide a more complete **d**irect manipulation **
 It is designed for exploratory data analysis, particularly for data having many dimensions but also provides the tools for the user to develop experimental interactive displays of their own.
     
 The package exists primarily to gather the related packages together and to make it easy to install and load these multiple 'diveR' packages in a single step. 
-    
-Some sense of the use of `loon` can be had its introduction, available [here](http://great-northern-diver.github.io/loon/articles/introduction.html).
+
+The package manual appears [here](http://great-northern-diver.github.io/diveR/).
+- an introduction to  `loon` is available [here](http://great-northern-diver.github.io/loon/articles/introduction.html).
 
 
