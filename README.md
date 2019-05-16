@@ -6,7 +6,7 @@
 
 'diveR' is a set of `loon` related packages (`diver` is another name for `loon`).
 
-The packages work together to provide a more complete Direct manipulation Interactive Visualization Environment in `R`.  
+The packages work together to provide a more complete **d**irect manipulation **i**nteractive **v**isualization **e**nvironment in **R**.  
  
 It is designed for exploratory data analysis, particularly for data having many dimensions but also provides the tools for the user to develop experimental interactive displays of their own.
     
