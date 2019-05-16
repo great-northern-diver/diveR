@@ -1,9 +1,8 @@
 
 ## diveR  <img src="man/figures/logo.png" align="right" width="120" />
 
-[![Build Status](https://travis-ci.org/great-northern-diver/diveR.svg?branch=master)](https://travis-ci.org/great-northern-diver/loon) 
+[![Build Status](https://travis-ci.org/great-northern-diver/diveR.svg?branch=master)](https://travis-ci.org/great-northern-diver/diveR) 
 
-[comment]: <> ([![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/loon)](https://cran.r-project.org/package=loon) )
 
 'diveR' is a set of `loon` related packages (`diver` is another name for `loon`)
     The packages work together to provide a more complete Direct manipulation Interactive Visualization Environment in `R`.  
