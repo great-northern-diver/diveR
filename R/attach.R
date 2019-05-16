@@ -25,7 +25,7 @@ diveR_attach <- function() {
   msg(
     cli::rule(
       left = crayon::bold("Attaching packages"),
-      right = paste0("diveR", package_version("diveR"))
+      right = paste0("diveR ", package_version("diveR"))
     ),
     startup = TRUE
   )
