@@ -17,10 +17,6 @@ navbar:
         href: https://cran.r-project.org/web/packages/cli/index.html
       - text: crayon
         href: https://cran.r-project.org/web/packages/crayon/index.html
-    - text: Videos
-      menu:
-      - text: Interactive 3D plots
-        href: https://youtu.be/mMJllGOuDLY
 
   right:
   - icon: fa-github fa-lg
