@@ -5,10 +5,18 @@ navbar:
   type: default
 
   left:
-    - text: Videos
+    - text: diveR packages
       menu:
-      - text: Interactive 3D plots
-        href: https://youtu.be/mMJllGOuDLY
+      - text: loon
+        href: https://great-northern-diver.github.io/loon/
+      - text: zenplots
+        href: https://cran.r-project.org/web/packages/zenplots/index.html
+    - text: Other packages
+      menu:
+      - text: cli
+        href: https://cran.r-project.org/web/packages/cli/index.html
+      - text: crayon
+        href: https://cran.r-project.org/web/packages/crayon/index.html
 
   right:
   - icon: fa-github fa-lg
