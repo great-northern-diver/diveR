@@ -4,10 +4,7 @@ Title: Direct interactive visual exploration in R
 Version: 0.1.0
 Authors@R: c(person(given = "R. Wayne", family = "Oldford",
                     email = "rwoldford@uwaterloo.ca", 
-                    role = c("aut", "cre")),
-             person(given = "Adrian", family = "Waddell", 
-                    email = "adrian@waddell.ch", 
-                    role = c("aut"))
+                    role = c("aut", "cre"))
                     )
 Description: 'diveR' is a set of `loon` related packages (`diver` is another name for `loon`)
     The packages work together to provide a more complete Direct manipulation Interactive Visualization Environment
