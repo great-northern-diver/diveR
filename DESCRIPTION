@@ -6,7 +6,8 @@ Authors@R: c(person(given = "R. Wayne", family = "Oldford",
                     email = "rwoldford@uwaterloo.ca", 
                     role = c("aut", "cre"))
                     )
-Description: 'diveR' is a set of `loon` related packages (`diver` is another name for `loon`)
+Description: 'diveR' is a set of `loon` related packages 
+     (the great northern `diver` being the  name for the Common `loon` -- Gavia immer).
     The packages work together to provide a more complete Direct manipulation Interactive Visualization Environment
     in `R`.  It is designed for exploratory data analysis, particularly for data having many
     dimensions but also provides the tools for the user to develop experimental interactive

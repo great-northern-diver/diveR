@@ -13,8 +13,17 @@ navbar:
         href: https://great-northern-diver.github.io/loon.data/
       - text: loon.ggplot
         href: https://great-northern-diver.github.io/loon.ggplot/
+      - text: ggmulti
+        href: https://great-northern-diver.github.io/ggmulti/
       - text: zenplots
         href: https://great-northern-diver.github.io/zenplots/
+
+    - text: related packages
+      menu:
+      - text: eikosograms
+        href: https://rwoldford.github.io/eikosograms/
+      - text: qqtest
+        href: https://rwoldford.github.io/qqtest/
 
   right:
   - icon: fa-github fa-lg
@@ -27,7 +36,8 @@ destination: docs/
 
 
 reference:
-  - title: Packages
-    desc: Information about packages defining diveR
+
+  - title: DiveR only functions
+    desc: Functions peculiar to diveR package
     contents:
     - diveR_packages
