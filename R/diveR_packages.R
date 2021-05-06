@@ -9,7 +9,7 @@ diveR_packages <- function(include_self = TRUE) {
     imports <- strsplit(raw, ",")[[1]]
     parsed <- gsub("^\\s+|\\s+$", "", imports)
     names <- vapply(strsplit(parsed, "\\s+"), "[[", 1, FUN.VALUE = character(1))
-
+    names <- setdiff(names, presentationPackages())
     if (include_self) {
         names <- c(names, "diveR")
     }

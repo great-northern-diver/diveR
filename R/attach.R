@@ -1,10 +1,17 @@
 ## Copied from file of the same name in tidyverse and modified for diveR
 
-diveRcore <- c("loon", "zenplots")
+diveRcore <- function() {
+  c("loon", "ggmulti", "loon.ggplot", "zenplots")
+  } #, "loon.tourr")
+
+presentationPackages  <- function() {
+  c("cli", "crayon", "rstudioapi")
+}
 
 core_unloaded <- function() {
-  search <- paste0("package:", diveRcore)
-  diveRcore[!search %in% search()]
+  diveRpkgs <- diveRcore()
+  search <- paste0("package:", diveRpkgs)
+  diveRpkgs[!search %in% search()]
 }
 
 # Attach the package from the same package library it was
@@ -15,6 +22,19 @@ same_library <- function(pkg) {
     "library",
     list(pkg, lib.loc = loc, character.only = TRUE, warn.conflicts = FALSE)
   )
+}
+
+diveR_message <- function(pkgs = diveRcore()) {
+  l_web_msg <- "To learn more about any diveR package, see l_web()."
+  if (length(pkgs) > 0) {
+    eg_msg <- paste0("\n", "E.g.")
+    pkg_egs <- paste0("\t",
+                      "l_web(package = \"",
+                      pkgs,
+                      "\")",
+                      collapse = "\n")
+    l_web_msg <- paste0(l_web_msg, eg_msg, pkg_egs, "\n")
+  }
 }
 
 diveR_attach <- function() {
@@ -43,6 +63,8 @@ diveR_attach <- function() {
   info <- paste0(packages[col1], "     ", packages[-col1])
 
   msg(paste(info, collapse = "\n"), startup = TRUE)
+
+  msg(diveR_message(), startup = TRUE)
 
   suppressPackageStartupMessages(
     lapply(to_load, same_library)
