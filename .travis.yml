@@ -23,5 +23,4 @@ cache: packages
 
 r:
  - release
- - devel
 
