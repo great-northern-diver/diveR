@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Direct interactive visual exploration in R • diveR</title>
+<title>Direct Interactive Visual Exploration in R • diveR</title>
 <!-- favicons --><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="apple-touch-icon.png">
@@ -17,16 +17,21 @@
 <script src="bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script><meta property="og:title" content="Direct interactive visual exploration in R">
-<meta property="og:description" content="`diveR` is the `looniverse` of `loon` related packages, 
-    the great northern `diver` being another name (chiefly British) 
+<script src="pkgdown.js"></script><meta property="og:title" content="Direct Interactive Visual Exploration in R">
+<meta property="og:description" content="The `diveR` package is the `looniverse` of 
+    `loon` related packages -
+    the great northern `diveR` being another name (chiefly British) 
     for the Common `loon` (chiefly North American).
-    The packages work together to provide a more complete 
-    Direct manipulation Interactive Visualization Environment in `R`.  
-    It is designed for exploratory data analysis, particularly for data having many
-    dimensions, as well as the development of experimental interactive
-    displays.
-    The package `diveR` gathers together and installs the related packages. ">
+    Together the `diveR` suite provides data analytic tools for 
+    Direct Interactive Visual Exploration in R.
+    These tools work with and complement those of the `tidyverse` suite, 
+    completing the graphics grammar of `ggplot2` to provide a grammar of interactive
+    graphics.
+    The suite provides many visual tools designed for moderately (100s of variables)
+    high dimensional data analysis, through `zenplots` and novel tools in `loon`, and
+    extends the `ggplot2` grammar to provide parallel coordinates, Andrews plots, and arbitrary 
+    glyphs through `ggmulti`.
+    The  `diveR` package gathers together and installs all these related packages. ">
 <meta property="og:image" content="/logo.png">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -78,7 +83,7 @@
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    related packages
+    other packages
      
     <span class="caret"></span>
   </a>
@@ -119,10 +124,9 @@
 </h2>
 
 <p><code>diveR</code> is the <code>looniverse</code> of <code>loon</code> related packages, the <strong>great northern diver</strong> being another name (chiefly British) for the <strong>Common loon</strong> (chiefly North American).</p>
-<p>The packages work together to provide a more complete <strong>d</strong>irect manipulation <strong>i</strong>nteractive <strong>v</strong>isualization <strong>e</strong>nvironment in <strong>R</strong>.</p>
-<p>It is designed for <strong>exploratory data analysis</strong>, particularly for data having many dimensions, as well as the development of experimental interactive displays.</p>
-<p>The package <code>diveR</code> gathers together and installs the related packages.</p>
-<p>The packages include:</p>
+<p>Together the packages of the <code>diveR</code> suite provides data analytic tools for <strong>d</strong>irect <strong>i</strong>nteractive <strong>v</strong>isual <strong>e</strong>xploration in <strong>R</strong>.</p>
+<p>These tools work with and complement those of the <code>tidyverse</code> suite, completing the graphics grammar of <code>ggplot2</code> to provide a <strong>grammar of interactive graphics</strong>. The suite provides many visual tools designed for moderately (100s of variables) high dimensional data analysis, through <code>zenplots</code> and novel tools in <code>loon</code>, and extends the <code>ggplot2</code> grammar to provide parallel coordinates, Andrews plots, and arbitrary glyphs through <code>ggmulti</code>.</p>
+<p>The <code>diveR</code> suite gathers together and installs all these related packages (documentation in links):</p>
 <ul>
 <li>
 <p><a href="http://great-northern-diver.github.io/loon/">loon</a>.</p>
@@ -150,7 +154,7 @@
 <li>
 <p><a href="http://great-northern-diver.github.io/loon.ggplot/">loon.ggplot</a>.</p>
 <p>Provides a bridge between the elegant but static displays of <code>ggplot2</code> and the interactive direct manipulation graphics of <code>loon</code></p>
-<p>Extends <code>ggplot2</code> to provide an <strong>grammar of interactive graphics</strong></p>
+<p>Extends <code>ggplot2</code> to provide a <strong>grammar of interactive graphics</strong></p>
 </li>
 </ul>
 </div>

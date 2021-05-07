@@ -7,13 +7,12 @@
 
 `diveR` is the `looniverse` of `loon` related packages, the **great northern diver** being another name (chiefly British) for the **Common loon** (chiefly North American).
 
-The packages work together to provide a more complete **d**irect manipulation **i**nteractive **v**isualization **e**nvironment in **R**.
 
-It is designed for **exploratory data analysis**, particularly for data having many dimensions, as well as the development of experimental interactive displays.
-    
-The package `diveR` gathers together and installs the related packages. 
-    
-The packages include:
+Together the packages of the `diveR` suite provides data analytic tools for  **d**irect **i**nteractive **v**isual **e**xploration in **R**.
+
+These tools work with and complement those of the `tidyverse` suite, completing the graphics grammar of `ggplot2` to provide a **grammar of interactive graphics**. The suite provides many visual tools designed for moderately (100s of variables) high dimensional data analysis, through `zenplots` and novel tools in `loon`, and extends the `ggplot2` grammar to provide parallel coordinates, Andrews plots, and arbitrary glyphs through `ggmulti`.
+
+The  `diveR` suite gathers together and installs all these related packages (documentation in links):
 
 - [loon](http://great-northern-diver.github.io/loon/).
 
@@ -44,6 +43,6 @@ The packages include:
 
   Provides a bridge between the elegant but static displays of `ggplot2` and the interactive direct manipulation graphics of `loon`
   
-  Extends `ggplot2` to provide an **grammar of interactive graphics**
+  Extends `ggplot2` to provide a **grammar of interactive graphics**
   
 
