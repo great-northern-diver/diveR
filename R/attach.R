@@ -1,7 +1,7 @@
 ## Copied from file of the same name in tidyverse and modified for diveR
 
 diveRcore <- function() {
-  c("loon", "ggmulti", "loon.ggplot", "zenplots")
+  c("loon", "loon.data", "ggmulti", "loon.ggplot", "zenplots")
   } #, "loon.tourr")
 
 presentationPackages  <- function() {
