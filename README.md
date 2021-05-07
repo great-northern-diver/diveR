@@ -44,6 +44,6 @@ The packages include:
 
   Provides a bridge between the elegant but static displays of `ggplot2` and the interactive direct manipulation graphics of `loon`
   
-  Extends `ggplot2` to provide an **grammar of interactive graphics**
+  Extends `ggplot2` to provide a **grammar of interactive graphics**
   
 
