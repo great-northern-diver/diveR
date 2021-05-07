@@ -35,6 +35,7 @@ diveR_message <- function(pkgs = diveRcore()) {
                       collapse = "\n")
     l_web_msg <- paste0(l_web_msg, eg_msg, pkg_egs, "\n")
   }
+  l_web_msg
 }
 
 diveR_attach <- function() {

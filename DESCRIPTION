@@ -1,19 +1,20 @@
 Package: diveR
 Type: Package
 Title: Direct interactive visual exploration in R
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person(given = "R. Wayne", family = "Oldford",
                     email = "rwoldford@uwaterloo.ca", 
                     role = c("aut", "cre"))
                     )
-Description: 'diveR' is a set of `loon` related packages 
-     (the great northern `diver` being the  name for the Common `loon` -- Gavia immer).
-    The packages work together to provide a more complete Direct manipulation Interactive Visualization Environment
-    in `R`.  It is designed for exploratory data analysis, particularly for data having many
-    dimensions but also provides the tools for the user to develop experimental interactive
-    displays of their own.
-    The package exists primarily to gather the related packages together and
-    to make it easy to install and load these multiple 'diveR' packages in a single step. 
+Description: `diveR` is the `looniverse` of `loon` related packages, 
+    the great northern `diver` being another name (chiefly British) 
+    for the Common `loon` (chiefly North American).
+    The packages work together to provide a more complete 
+    Direct manipulation Interactive Visualization Environment in `R`.  
+    It is designed for exploratory data analysis, particularly for data having many
+    dimensions, as well as the development of experimental interactive
+    displays.
+    The package `diveR` gathers together and installs the related packages. 
 License: GPL-2 
 URL: https://github.com/great-northern-diver/diver/
 BugReports: https://github.com/great-northern-diver/diver/issues
