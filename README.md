@@ -12,7 +12,6 @@ It is designed for exploratory data analysis, particularly for data having many 
     
 The package exists primarily to gather the related packages together and to make it easy to install and load these multiple 'diveR' packages in a single step. 
 
-The package manual appears [here](http://great-northern-diver.github.io/diveR/).
-- an introduction to  `loon` is available [here](http://great-northern-diver.github.io/loon/articles/introduction.html).
+An introduction to  `loon` is available [here](http://great-northern-diver.github.io/loon/articles/introduction.html).
 
 

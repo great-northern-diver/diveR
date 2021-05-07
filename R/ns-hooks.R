@@ -1,5 +1,6 @@
 .onAttach <- function(...) {
-  needed <- diveRcore[!is_attached(diveRcore)]
+  diveRpkgs <- diveRcore()
+  needed <- diveRpkgs[!is_attached(diveRpkgs)]
   if (length(needed) == 0)
     return()
 
