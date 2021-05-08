@@ -2,8 +2,7 @@
 
 ## diveR  <img src="man/figures/logo.png" align="right" width="120" />
 
-[![Build Status](https://travis-ci.org/great-northern-diver/diveR.svg?branch=master)](https://travis-ci.org/great-northern-diver/diveR) 
-
+[![Build Status](https://travis-ci.com/great-northern-diver/diveR.svg?branch=master)](https://travis-ci.com/great-northern-diver/diveR) 
 
 `diveR` is the `looniverse` of `loon` related packages, the **great northern diver** being another name (chiefly British) for the **Common loon** (chiefly North American).
 
