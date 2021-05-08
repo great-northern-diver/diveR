@@ -18,7 +18,7 @@ navbar:
       - text: zenplots
         href: https://great-northern-diver.github.io/zenplots/
 
-    - text: related packages
+    - text: other packages
       menu:
       - text: eikosograms
         href: https://rwoldford.github.io/eikosograms/
@@ -29,15 +29,12 @@ navbar:
   - icon: fa-github fa-lg
     href: https://github.com/great-northern-diver/diveR
 
-development:
-  mode: release
-
-destination: docs/
-
-
 reference:
-
-  - title: DiveR only functions
+  - title: DiveR functions
     desc: Functions peculiar to diveR package
     contents:
     - diveR_packages
+
+development:
+  mode: release
+

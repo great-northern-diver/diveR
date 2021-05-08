@@ -1,17 +1,48 @@
+# Direct Interactive Visual Exploration in R.
 
 ## diveR  <img src="man/figures/logo.png" align="right" width="120" />
 
 [![Build Status](https://travis-ci.org/great-northern-diver/diveR.svg?branch=master)](https://travis-ci.org/great-northern-diver/diveR) 
 
 
-'diveR' is a set of `loon` related packages (`diver` is another name for `loon`).
+`diveR` is the `looniverse` of `loon` related packages, the **great northern diver** being another name (chiefly British) for the **Common loon** (chiefly North American).
 
-The packages work together to provide a more complete **d**irect manipulation **i**nteractive **v**isualization **e**nvironment in **R**.  
- 
-It is designed for exploratory data analysis, particularly for data having many dimensions but also provides the tools for the user to develop experimental interactive displays of their own.
-    
-The package exists primarily to gather the related packages together and to make it easy to install and load these multiple 'diveR' packages in a single step. 
 
-An introduction to  `loon` is available [here](http://great-northern-diver.github.io/loon/articles/introduction.html).
+Together the packages of the `diveR` suite provides data analytic tools for  **d**irect **i**nteractive **v**isual **e**xploration in **R**.
 
+These tools work with and complement those of the `tidyverse` suite, completing the graphics grammar of `ggplot2` to provide a **grammar of interactive graphics**. The suite provides many visual tools designed for moderately (100s of variables) high dimensional data analysis, through `zenplots` and novel tools in `loon`, and extends the `ggplot2` grammar to provide parallel coordinates, Andrews plots, and arbitrary glyphs through `ggmulti`.
+
+The  `diveR` suite gathers together and installs all these related packages (documentation in links):
+
+- [loon](http://great-northern-diver.github.io/loon/).
+
+  This is the backbone package that provides the interactive graphics.
+   
+- [loon.data](http://great-northern-diver.github.io/loon.data/).
+
+  Provides a rich collection of data sets to illustrate interactive graphics.  It also includes several artificial data sets constructed for teaching purposes.
+  
+- [zenplots](http://great-northern-diver.github.io/zenplots/). 
+
+  Extends 
+  
+  - the base `graphics` package
+  - the `grid` graphics package
+  - the `loon` interactive graphics package
+  
+  to allow for the layout of alternating 1d and 2d plots.
+  
+  Provides compact displays for high dimensional data 
+  (e.g., where pairs plots would be too small to be informative).
+
+- [ggmulti](http://great-northern-diver.github.io/ggmulti/). 
+
+  Extends the grammar of the  `ggplot2` package to accommodate displays such as parallel coordinate and Andrews function plots for high dimensional data.
+  
+- [loon.ggplot](http://great-northern-diver.github.io/loon.ggplot/).
+
+  Provides a bridge between the elegant but static displays of `ggplot2` and the interactive direct manipulation graphics of `loon`
+  
+  Extends `ggplot2` to provide a **grammar of interactive graphics**
+  
 

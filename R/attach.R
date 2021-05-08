@@ -1,7 +1,7 @@
 ## Copied from file of the same name in tidyverse and modified for diveR
 
 diveRcore <- function() {
-  c("loon", "ggmulti", "loon.ggplot", "zenplots")
+  c("loon", "loon.data", "ggmulti", "loon.ggplot", "zenplots")
   } #, "loon.tourr")
 
 presentationPackages  <- function() {
@@ -35,6 +35,7 @@ diveR_message <- function(pkgs = diveRcore()) {
                       collapse = "\n")
     l_web_msg <- paste0(l_web_msg, eg_msg, pkg_egs, "\n")
   }
+  l_web_msg
 }
 
 diveR_attach <- function() {
