@@ -1,25 +1,22 @@
 Package: diveR
 Type: Package
-Title: Direct Interactive Visual Exploration in R
+Title: Easily Install and Load Interactive Data Visualization Tools 
 Version: 0.1.1
 Authors@R: c(person(given = "R. Wayne", family = "Oldford",
                     email = "rwoldford@uwaterloo.ca", 
                     role = c("aut", "cre"))
                     )
-Description: The `diveR` package is the `looniverse` of 
-    `loon` related packages -
-    the great northern `diveR` being another name (chiefly British) 
-    for the Common `loon` (chiefly North American).
-    Together the `diveR` suite provides data analytic tools for 
-    Direct Interactive Visual Exploration in R.
-    These tools work with and complement those of the `tidyverse` suite, 
-    completing the graphics grammar of `ggplot2` to provide a grammar of interactive
+Description: A suite of 'loon' related packages providing data analytic tools for 
+    Direct Interactive Visual Exploration in R ('diveR').
+    These tools work with and complement those of the 'tidyverse' suite, 
+    extending the grammar of 'ggplot2' to become a grammar of interactive
     graphics.
     The suite provides many visual tools designed for moderately (100s of variables)
-    high dimensional data analysis, through `zenplots` and novel tools in `loon`, and
-    extends the `ggplot2` grammar to provide parallel coordinates, Andrews plots, and arbitrary 
-    glyphs through `ggmulti`.
-    The  `diveR` package gathers together and installs all these related packages. 
+    high dimensional data analysis, through 'zenplots' and novel tools in 'loon', and
+    extends the 'ggplot2' grammar to provide parallel coordinates, Andrews plots, and arbitrary 
+    glyphs through 'ggmulti'.
+    The  'diveR' package gathers together and installs all these related packages
+    in a single step. 
 License: GPL-2 
 URL: https://github.com/great-northern-diver/diver/
 BugReports: https://github.com/great-northern-diver/diver/issues
