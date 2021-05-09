@@ -1,4 +1,4 @@
-# Direct Interactive Visual Exploration in R.
+# Easily Install and Load Interactive Data Visualization Tools
 
 ## diveR  <img src="man/figures/logo.png" align="right" width="120" />
 
