@@ -1,12 +1,15 @@
-# Easily Install and Load Interactive Data Visualization Tools
+---
+title: diveR <img src="man/figures/logo.png" align="right" width="120" />
 
-## diveR  <img src="man/figures/logo.png" align="right" width="120" />
+---
+
 
 [![Build Status](https://travis-ci.com/great-northern-diver/diveR.svg?branch=master)](https://travis-ci.com/great-northern-diver/diveR) 
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/diveR)](https://cran.r-project.org/package=diveR)
 
+## Easily Install and Load Interactive Data Visualization Tools
 
-`diveR` is the `looniverse` of `loon` related packages, the **great northern diver** being another name (chiefly British) for the **Common loon** (chiefly North American).
+`diveR` is the `looniverse` of `loon` related packages, the **great northern diver** being another name (chiefly British) for the **Common loon** (chiefly North American). Documentation [here](https://great-northern-diver.github.io/diveR/).
 
 
 Together the packages of the `diveR` suite provides data analytic tools for  **d**irect **i**nteractive **v**isual **e**xploration in **R**.
