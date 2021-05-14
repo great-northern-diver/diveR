@@ -17,6 +17,10 @@ navbar:
         href: https://great-northern-diver.github.io/ggmulti/
       - text: zenplots
         href: https://great-northern-diver.github.io/zenplots/
+      - text: loon.shiny
+        href: https://great-northern-diver.github.io/loon.shiny/
+      - text: loon.tourr
+        href: https://great-northern-diver.github.io/loon.tourr/
 
     - text: other packages
       menu:
