@@ -32,6 +32,6 @@ Imports:
     loon.ggplot (>= 1.1.0),
     zenplots,
     loon.shiny,
-    loun.tourr
+    loon.tourr
 Encoding: UTF-8
 RoxygenNote: 7.1.1
