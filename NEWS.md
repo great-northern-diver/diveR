@@ -1,3 +1,10 @@
+# diveR 0.1.2
+
+  * added the following to the suite
+  
+    - `loon.shiny`
+    - `loon.tourr`
+  
 # diveR 0.1.1
 
   * first release for CRAN

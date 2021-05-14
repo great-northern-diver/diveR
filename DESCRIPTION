@@ -1,7 +1,7 @@
 Package: diveR
 Type: Package
 Title: Easily Install and Load Interactive Data Visualization Tools 
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(person(given = "R. Wayne", family = "Oldford",
                     email = "rwoldford@uwaterloo.ca", 
                     role = c("aut", "cre"))
@@ -30,6 +30,8 @@ Imports:
     loon.data,
     ggmulti,
     loon.ggplot (>= 1.1.0),
-    zenplots
+    zenplots,
+    loon.shiny,
+    loun.tourr
 Encoding: UTF-8
 RoxygenNote: 7.1.1
