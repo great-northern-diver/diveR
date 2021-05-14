@@ -21,7 +21,6 @@ navbar:
         href: https://great-northern-diver.github.io/loon.shiny/
       - text: loon.tourr
         href: https://great-northern-diver.github.io/loon.tourr/
-
     - text: other packages
       menu:
       - text: eikosograms
@@ -33,12 +32,16 @@ navbar:
   - icon: fa-github fa-lg
     href: https://github.com/great-northern-diver/diveR
 
+development:
+  mode: release
+
+destination: ./docs/
+
 reference:
+
   - title: DiveR functions
     desc: Functions peculiar to diveR package
     contents:
     - diveR_packages
 
-development:
-  mode: release
 
