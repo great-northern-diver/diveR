@@ -1,8 +1,10 @@
 ## Copied from file of the same name in tidyverse and modified for diveR
 
 diveRcore <- function() {
-  c("loon", "loon.data", "ggmulti", "loon.ggplot", "zenplots")
-  } #, "loon.tourr")
+  c("loon", "loon.data", "ggmulti",
+    "loon.ggplot", "zenplots", "loon.shiny",
+    "loon.tourr")
+  }
 
 presentationPackages  <- function() {
   c("cli", "crayon", "rstudioapi")
