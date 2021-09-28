@@ -29,9 +29,10 @@ Imports:
     loon (>= 1.2.2),
     loon.data,
     ggmulti,
-    loon.ggplot (>= 1.1.0),
+    loon.ggplot,
     zenplots,
     loon.shiny,
-    loon.tourr
+    loon.tourr,
+    stats
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
