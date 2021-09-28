@@ -19,10 +19,15 @@ core_unloaded <- function() {
 # Attach the package from the same package library it was
 # loaded from before.
 same_library <- function(pkg) {
-  loc <- if (pkg %in% loadedNamespaces()) dirname(getNamespaceInfo(pkg, "path"))
+  loc <- if (pkg %in% loadedNamespaces()) {
+    dirname(getNamespaceInfo(pkg, "path"))
+    }
   do.call(
     "library",
-    list(pkg, lib.loc = loc, character.only = TRUE, warn.conflicts = FALSE)
+    list(pkg,
+         lib.loc = loc,
+         character.only = TRUE,
+         warn.conflicts = FALSE)
   )
 }
 
